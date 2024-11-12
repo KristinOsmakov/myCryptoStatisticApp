@@ -28,7 +28,7 @@ const cryptoSlice = createSlice({
   initialState,
   reducers: {
     addCrypto: (state, action) => {
-      state.cryptos.push(action.payload);
+      state.cryptos.push(action.payload);      
     },
     removeCrypto: (state, action) => {
       state.cryptos = state.cryptos.filter(crypto => crypto.id !== action.payload);
