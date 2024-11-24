@@ -4,7 +4,7 @@ import axios from 'axios';
 export const fetchCryptoPrices = createAsyncThunk(
     'cryptos/fetchCryptoPrices',
     async (symbols: string[]) => {
-        const response = await axios.get(`https://api.binance.com/api/v3/ticker/price`);
+        const response = await axios.get(`wss://ws.bitget.com/v2/ws/public`);
         console.log('API Response:', response.data);
         return response.data.filter((ticker: any) => symbols.includes(ticker.symbol));
       }
