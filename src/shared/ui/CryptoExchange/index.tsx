@@ -4,9 +4,7 @@ import { exchangeImage } from '../../../entities/ExchangeImage';
 import styles from './styles.module.scss';
 import clsx from 'clsx';
 import { Scroll } from "../scroll";
-import SocketApiBinance from '../../../features/SocketApi/socket-api-binance'; 
 import SocketApiBybit from "../../../features/SocketApi/socket-api-bybit";
-import SocketApiOKEX from "../../../features/SocketApi/socket-api-okex";
 
 export const CryptoExchange = ({ exchangeName }: { exchangeName: string }) => {
     const tokens = ExchangeArray[exchangeName];

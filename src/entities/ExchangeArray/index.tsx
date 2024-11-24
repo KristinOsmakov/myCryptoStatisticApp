@@ -107,12 +107,6 @@ export const ExchangeArray: { [key: string]: TokenInfoProps[] } = {
         quantity: "161.47",
       },
       {
-        tokenName: "XLM",
-        priceNow: "1.0",
-        pricePurchase: "1.0",
-        quantity: "85.9",
-      },
-      {
         tokenName: "ADA",
         priceNow: "0.25",
         pricePurchase: "0.15",
@@ -200,7 +194,7 @@ export const ExchangeArray: { [key: string]: TokenInfoProps[] } = {
         tokenName: "USDT",
         priceNow: "0.25",
         pricePurchase: "0.15",
-        quantity: "0.0197",
+        quantity: "45.7589",
       },
       {
         tokenName: "MNT",
